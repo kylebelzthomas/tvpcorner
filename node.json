@@ -1,0 +1,7 @@
+{
+    "type": "web",
+    "files": {
+        "html/index.html": true,
+        "node.lua": true
+    }
+}
