@@ -3,8 +3,10 @@
     "description": "A package to display RTSP streams in a grid format.",
     "version": "1.0",
     "main": "node.lua",
+    "author": "Your Name",
     "files": {
         "html/index.html": true,
         "node.lua": true
     }
 }
+
