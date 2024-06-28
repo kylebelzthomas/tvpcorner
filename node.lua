@@ -10,7 +10,7 @@ function node.render()
 end
 
 function node.load_html()
-    local content = resource.load_file("html/index.html")
+    local content = resource.load_file("index.html")
     webview = resource.create_webview()
     webview:open(content)
 end
