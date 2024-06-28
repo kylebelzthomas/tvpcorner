@@ -2,6 +2,7 @@
     "name": "RTSP Stream Package",
     "version": "1.0.0",
     "main": "node.lua",
-    "description": "A package to play an RTSP stream using info-beamer",
+    "desc": "A package to play an RTSP stream using info-beamer",
+    "author": "Kyle",
     "dependencies": {}
 }
