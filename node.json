@@ -2,7 +2,7 @@
     "name": "my-rtsp-package",
     "type": "web",
     "files": {
-        "html/index.html": true,
+        "index.html": true,
         "node.lua": true
     }
 }
