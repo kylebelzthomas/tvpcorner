@@ -1,0 +1,6 @@
+{
+    "name": "RTSP Stream Package",
+    "description": "A package to play an RTSP stream using info-beamer",
+    "version": "1.0.0",
+    "root": "node.lua"
+}
