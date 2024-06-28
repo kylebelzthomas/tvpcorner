@@ -1,5 +1,6 @@
 {
     "type": "rtsp-stream",
-    "description": "Node to play an RTSP stream",
+    "name": "node",
+    "desc": "Node to play an RTSP stream",
     "rtsp_url": "rtsp://tvdispla:Viewer1123@10.110.114.22/profile1/media.smp"
 }
