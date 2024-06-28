@@ -5,7 +5,7 @@
     "main": "node.lua",
     "author": "Your Name",
     "files": {
-        "html/index.html": true,
+        "index.html": true,
         "node.lua": true
     }
 }
