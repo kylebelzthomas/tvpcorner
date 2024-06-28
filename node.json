@@ -1,8 +1,5 @@
 {
-    "name": "my-rtsp-package",
-    "type": "web",
-    "files": {
-        "index.html": true,
-        "node.lua": true
-    }
+    "type": "rtsp-stream",
+    "description": "Node to play an RTSP stream",
+    "rtsp_url": "rtsp://tvdispla:Viewer1123@10.110.114.22/profile1/media.smp"
 }
