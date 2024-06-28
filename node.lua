@@ -1,24 +1,10 @@
 gl.setup(1920, 1080)
 
-local webview
+local video = util.videoplayer(CONFIG.get("rtsp_url"), {
+    raw = true,
+    looped = true
+})
 
 function node.render()
-    gl.clear(0, 0, 0, 1)
-    if webview then
-        webview:draw(0, 0, WIDTH, HEIGHT)
-    end
+    video:draw(0, 0, WIDTH, HEIGHT)
 end
-
-function node.load_html()
-    local content = resource.load_file("index.html")
-    webview = resource.create_webview()
-    webview:open(content)
-end
-
-util.data_mapper{
-    ["reload"] = function()
-        node.load_html()
-    end
-}
-
-node.load_html()
